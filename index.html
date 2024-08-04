@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Fire API</title>
+    <script>
+        function redirectToURL() {
+            const region = document.getElementById("region").value;
+            const uid = document.getElementById("uid").value;
+
+            const fullURL = "free-ff-api-src-dcu9.onrender.com/api/v1/account?region=" + region + "&uid=" + uid;
+
+            window.location.href = "https://" + fullURL;
+        }
+    </script>
+</head>
+<body>
+    <h1>URL Joiner</h1>
+
+    <label for="region">Region:</label>
+    <input type="text" id="region" name="region" placeholder="IND, SG, BR, VN" required><br><br>
+
+    <label for="uid">UID:</label>
+    <input type="text" id="uid" name="uid" placeholder="2180732447" required><br><br>
+
+    <button onclick="redirectToURL()">Go</button>
+    
+</body>
+</html>
