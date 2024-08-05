@@ -9,9 +9,8 @@
             const region = document.getElementById("region").value;
             const uid = document.getElementById("uid").value;
 
-            const fullURL = "free-ff-api-src-dcu9.onrender.com/api/v1/account?region=" + region + "&uid=" + uid;
-
-            window.location.href = "https://" + fullURL;
+            const url = "free-ff-api-src-dcu9.onrender.com/api/v1/account?region=" + region + "&uid=" + uid;
+            document.getElementById("json").src = "https://" + url;
         }
     </script>
 </head>
@@ -26,5 +25,7 @@
 
     <button onclick="redirectToURL()">Go</button>
     
+    <iframe id="json" width="600" height="400" title="json"></iframe>
+
 </body>
 </html>
