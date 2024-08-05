@@ -4,5 +4,9 @@ h1 {
 
 json {
     display: block;
-    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border: 1px solid #000;
+    background-color: #f9f9f9;
 }
