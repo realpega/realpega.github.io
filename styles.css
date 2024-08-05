@@ -10,3 +10,9 @@ json {
     border: 1000px solid #000;
     background-color: #f9f9f9;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
