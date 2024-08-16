@@ -7,7 +7,7 @@
     <title>Free Fire API</title>
     <script>
         function redirectToURL() {
-            const region = document.getElementById("region").value;
+            const region = document.getElementById("region").value.toLowerCase();
             const uid = document.getElementById("uid").value;
 
             const url = "https://www.info.freefireinfo.site/api/" + region + "/" + uid + "?key=sounava777";
