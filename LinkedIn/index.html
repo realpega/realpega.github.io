@@ -6,38 +6,32 @@
     <link rel="stylesheet" href="/styles.css">
     <title>LinkedIn</title>
 </head>
-<body class="bg-dark text-light">
+<body style="background-color: black;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="/LinkedIn/res/linkedin.png" height="50" alt="LinkedIn"></a>
-            <form class="d-flex ms-2 ms-lg-4">
-                <input class="form-control me-sm-2" type="search" placeholder="Search" />
+            <a class="navbar-brand" href="#"><img src="/LinkedIn/res/linkedin.png" height="50px" alt="LinkedIn Logo"></a>
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
             </form>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#"><img src="/LinkedIn/res/home.png" height="30" alt="Home"> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><img src="/LinkedIn/res/my-network.png" height="30" alt="My Network"> My Network</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><img src="/LinkedIn/res/jobs.png" height="30" alt="Jobs"> Jobs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><img src="/LinkedIn/res/messaging.png" height="30" alt="Messaging"> Messaging</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><img src="/LinkedIn/res/notifications.png" height="30" alt="Notifications"> Notifications</a></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="/LinkedIn/res/pfp.png" height="30" alt="Me"> Me
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownId">
-                            
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdownBusiness" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="/LinkedIn/res/business.png" height="30" alt="For Business"> For Business
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownBusiness">
-                            
-                        </ul>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="#"><img src="/LinkedIn/res/premium.png" height="25" alt="Premium"> Premium</a></li>
-                </ul>
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link text-light" href="#"><img src="/LinkedIn/res/home.png" height="30px" alt="Home"> Home</a>
+                <a class="nav-item nav-link text-light" href="#"><img src="/LinkedIn/res/my-network.png" height="30px" alt="My Network"> My Network</a>
+                <a class="nav-item nav-link text-light" href="#"><img src="/LinkedIn/res/jobs.png" height="30px" alt="Jobs"> Jobs</a>
+                <a class="nav-item nav-link text-light" href="#"><img src="/LinkedIn/res/messaging.png" height="30px" alt="Messaging"> Messaging</a>
+                <a class="nav-item nav-link text-light" href="#"><img src="/LinkedIn/res/notifications.png" height="30px" alt="Notifications"> Notifications</a>
+                <a class="nav-item nav-link text-light dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="/LinkedIn/res/pfp.png" height="30px" alt="Profile"> Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <!-- Dropdown items here -->
+                </div>
+                <a class="nav-item nav-link text-light dropdown-toggle" href="#" id="dropdownBusiness" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img src="/LinkedIn/res/business.png" height="30px" alt="For Business"> For Business
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownBusiness">
+                    <!-- Dropdown items here -->
+                </div>
+                <a class="nav-item nav-link text-light" href="#"><img src="/LinkedIn/res/premium.png" height="25px" alt="Premium"> Premium</a>
             </div>
         </div>
     </nav>
@@ -45,51 +39,45 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-lg-9 col-md-12">
-                <div class="bg-light py-4">
-                    
+                <div class="bg-light p-4">
+                    <!-- Placeholder for content -->
                 </div>
-                <div class="bg-dark text-light py-4">
+                <div class="bg-dark text-white p-4">
                     <h4>Sounava Bhowmick</h4>
                     <h6>Web, Android & Game</h6>
-                    <p>Kolkata ∙ <a href="https://www.linkedin.com/in/sounava-bhowmick/" class="text-light" target="_blank">Contact info</a></p>
-                    <p><a href="https://www.linkedin.com/in/sounava-bhowmick/" class="text-light" target="_blank">500+ connections</a></p>
-                    <div class="d-flex flex-wrap">
-                        <button class="btn btn-primary me-2" type="button">
-                            <h6 class="text-dark mb-0">Open to</h6>
-                        </button>
-                        <button class="btn btn-dark border border-primary me-2" type="button">
-                            <h6 class="text-primary mb-0">Add profile section</h6>
-                        </button>
-                        <button class="btn btn-dark border border-light" type="button">
-                            <h6 class="text-light mb-0">More</h6>
-                        </button>
+                    <p>Kolkata ∙ <a href="https://www.linkedin.com/in/sounava-bhowmick/" class="text-white" target="_blank">Contact info</a></p>
+                    <p><a href="https://www.linkedin.com/in/sounava-bhowmick/" class="text-white" target="_blank">500+ connections</a></p>
+                    <div>
+                        <button class="btn btn-primary rounded-pill">Open to</button>
+                        <button class="btn btn-dark border border-primary rounded-pill">Add profile section</button>
+                        <button class="btn btn-dark border border-light rounded-pill">More</button>
                     </div>
                 </div>
-                <br>
-                <div class="bg-dark text-light py-4">
+                <div class="bg-dark text-white p-4 mt-4">
                     <h5>Experience</h5>
                     <div class="d-flex align-items-start">
                         <a href="https://www.linkedin.com/company/apponex/" target="_blank">
-                            <img src="/LinkedIn/res/apponex.jpg" height="75" class="me-3" alt="AppoNex">
+                            <img src="/LinkedIn/res/apponex.jpg" height="75px" class="me-3" alt="AppoNex">
                         </a>
                         <div>
-                            <span class="h5">Internship</span>
-                            <span class="h6">AppoNex</span>
-                            <span>August 2024 - Present</span>
-                            <span>India</span>
-                            <p class="mt-3 mb-0">
-                                Web3, often referred to as the decentralized web, represents the next evolution of the internet, focusing on decentralization, user sovereignty, and peer-to-peer interactions. Unlike Web2, which is dominated by centralized platforms and corporations that control data and services, Web3 envisions a more open and transparent internet where users have control over their data and digital identities.
-                            </p>
-                            <hr class="text-light">
+                            <h5>Internship</h5>
+                            <h6>AppoNex</h6>
+                            <p>August 2024 - Present</p>
+                            <p>India</p>
+                            <p>Web3, often referred to as the decentralized web, represents the next evolution of the internet...</p>
+                            <hr>
                         </div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="col-lg-3 col-md-12">
+                <!-- Placeholder for additional content or sidebar -->
             </div>
         </div>
     </div>
-       </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
     </html>
-    
